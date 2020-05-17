@@ -54,10 +54,19 @@ const db = require('./util/database');
 ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/fb6ab837-3300-4e8d-9d0c-53f9f8e3d713/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/fb6ab837-3300-4e8d-9d0c-53f9f8e3d713/Untitled.png)
 
 - id - Int
+    - Primary Key
+    - Not Null
+    - Unique Index
+    - Unsigned
+    - Auto Increment
 - title - VARCHAR(255)
+    - Not Null
 - price - DOUBLE
+    - Not Null
 - description - Text
+    - Not Null
 - ImageUrl - VARCHAR(255)
+    - Not Null
 
 ### Usage
 
